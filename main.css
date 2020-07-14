@@ -60,6 +60,11 @@ Portfolio should have 1 column for the container and center the caption text.
 Index page should have the profile image fill the max width.*/
 
 @media screen and (max-width: 640px) {
-
+    nav.navbar-dark {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 
 }
