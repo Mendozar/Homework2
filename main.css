@@ -6,6 +6,7 @@
     float:right;
 }
 
+
 body {
     background-image: url("assets/sayagata-400px.png");
     background-repeat: repeat;
@@ -44,16 +45,21 @@ h1 {
 /* Max width > 640 px but < 768 px - Container should fill the width with some padding.*/
 
 @media screen and (max-width: 768px) {
-.container{
+.container {
     float: none;
 }
+img {
+    size: auto;
 }
 
-/* Max width < 640 px - Stack the name on top of the buttons in the nav bar. Center align the name and nav bar buttons. Portfolio should have 1 column for the container and center the caption text. Index page should have the profile image fill the max width.*/
+}
+
+/* Max width < 640 px - Stack the name on top of the buttons in the nav bar. 
+Center align the name and nav bar buttons. 
+Portfolio should have 1 column for the container and center the caption text. 
+Index page should have the profile image fill the max width.*/
 
 @media screen and (max-width: 640px) {
-
-
 
 
 }
